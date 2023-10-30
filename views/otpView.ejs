@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP page</title>
+</head>
+<body>
+    <h1>PLEASE ENTER YOUR ONE-TIME-PASSWORD</h1>
+    <form method="POST" action="/otpcheck/checkotp" onsubmit="event.preventDefault()">
+        <label for="OTP">Enter Your Otp:</label>
+        <input type="text" name="myOTP" id="OTP" placeholder="Enter Original Url">
+        <button type="submit">SUBMIT OTP</button>
+    </form>
+</body>
+</html>
